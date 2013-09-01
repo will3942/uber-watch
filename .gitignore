@@ -1,0 +1,12 @@
+
+.DS_Store
+.waf*
+.lock*
+build
+a.out
+include
+lib
+waf
+wscript
+tools
+pebble_app.ld
