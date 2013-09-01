@@ -53,11 +53,13 @@
         NSDictionary* message = [queue objectAtIndex:0];
         [_watch appMessagesPushUpdate:message onSent:^(PBWatch *watch, NSDictionary *update, NSError *error) {
             if(!error) {
+							if ([queue count] != 0) {
                 [queue removeObjectAtIndex:0];
                 failureCount = 0;
                 //NSLog(@"Successfully pushed: %@", message);
                 
                 NSLog(@"%@", update);
+							}
             } else {
                 NSLog(@"Send failed; will retransmit.");
                 NSLog(@"Error: %@", error);

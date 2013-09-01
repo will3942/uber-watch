@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		34B0790117D3488B0020CFA9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B0790017D3488B0020CFA9 /* CoreMotion.framework */; };
 		34B0790317D3488F0020CFA9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B0790217D3488F0020CFA9 /* ExternalAccessory.framework */; };
+		34D834C317D35D8D00F5EA11 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D834C117D35D8D00F5EA11 /* PebbleKit.framework */; };
+		34D834C417D35D8D00F5EA11 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D834C217D35D8D00F5EA11 /* PebbleVendor.framework */; };
 		8A01964E17D2AD22003A7C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01964D17D2AD22003A7C72 /* Foundation.framework */; };
 		8A01965017D2AD22003A7C72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01964F17D2AD22003A7C72 /* CoreGraphics.framework */; };
 		8A01965217D2AD22003A7C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01965117D2AD22003A7C72 /* UIKit.framework */; };
@@ -20,8 +22,6 @@
 		8A01966F17D2AD22003A7C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01965117D2AD22003A7C72 /* UIKit.framework */; };
 		8A01967717D2AD22003A7C72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A01967517D2AD22003A7C72 /* InfoPlist.strings */; };
 		8A01967917D2AD22003A7C72 /* UberPebbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A01967817D2AD22003A7C72 /* UberPebbleTests.m */; };
-		8A01968417D2AD58003A7C72 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01968217D2AD58003A7C72 /* PebbleKit.framework */; };
-		8A01968517D2AD58003A7C72 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01968317D2AD58003A7C72 /* PebbleVendor.framework */; };
 		8A01968817D2AE42003A7C72 /* KBPebbleMessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A01968717D2AE42003A7C72 /* KBPebbleMessageQueue.m */; };
 		8A01968A17D2AE59003A7C72 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01968917D2AE59003A7C72 /* CoreBluetooth.framework */; };
 		8A01968C17D2AE60003A7C72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A01968B17D2AE60003A7C72 /* CoreLocation.framework */; };
@@ -42,6 +42,8 @@
 /* Begin PBXFileReference section */
 		34B0790017D3488B0020CFA9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		34B0790217D3488F0020CFA9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		34D834C117D35D8D00F5EA11 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = ../../../../Downloads/UberPebble/PebbleKit.framework; sourceTree = "<group>"; };
+		34D834C217D35D8D00F5EA11 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = ../../../../Downloads/UberPebble/PebbleVendor.framework; sourceTree = "<group>"; };
 		8A01964A17D2AD22003A7C72 /* UberPebble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberPebble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A01964D17D2AD22003A7C72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A01964F17D2AD22003A7C72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +59,6 @@
 		8A01967417D2AD22003A7C72 /* UberPebbleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberPebbleTests-Info.plist"; sourceTree = "<group>"; };
 		8A01967617D2AD22003A7C72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A01967817D2AD22003A7C72 /* UberPebbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberPebbleTests.m; sourceTree = "<group>"; };
-		8A01968217D2AD58003A7C72 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
-		8A01968317D2AD58003A7C72 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
 		8A01968617D2AE42003A7C72 /* KBPebbleMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPebbleMessageQueue.h; sourceTree = "<group>"; };
 		8A01968717D2AE42003A7C72 /* KBPebbleMessageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPebbleMessageQueue.m; sourceTree = "<group>"; };
 		8A01968917D2AE59003A7C72 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -78,10 +78,10 @@
 				8A01968C17D2AE60003A7C72 /* CoreLocation.framework in Frameworks */,
 				8A01968A17D2AE59003A7C72 /* CoreBluetooth.framework in Frameworks */,
 				8A01965017D2AD22003A7C72 /* CoreGraphics.framework in Frameworks */,
-				8A01968517D2AD58003A7C72 /* PebbleVendor.framework in Frameworks */,
-				8A01968417D2AD58003A7C72 /* PebbleKit.framework in Frameworks */,
 				8A01965217D2AD22003A7C72 /* UIKit.framework in Frameworks */,
 				8A01964E17D2AD22003A7C72 /* Foundation.framework in Frameworks */,
+				34D834C317D35D8D00F5EA11 /* PebbleKit.framework in Frameworks */,
+				34D834C417D35D8D00F5EA11 /* PebbleVendor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +120,8 @@
 		8A01964C17D2AD22003A7C72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34D834C117D35D8D00F5EA11 /* PebbleKit.framework */,
+				34D834C217D35D8D00F5EA11 /* PebbleVendor.framework */,
 				34B0790217D3488F0020CFA9 /* ExternalAccessory.framework */,
 				34B0790017D3488B0020CFA9 /* CoreMotion.framework */,
 				8A18B50117D2CB6D00D5596E /* libz.dylib */,
@@ -127,8 +129,6 @@
 				8A01968917D2AE59003A7C72 /* CoreBluetooth.framework */,
 				8A01968617D2AE42003A7C72 /* KBPebbleMessageQueue.h */,
 				8A01968717D2AE42003A7C72 /* KBPebbleMessageQueue.m */,
-				8A01968217D2AD58003A7C72 /* PebbleKit.framework */,
-				8A01968317D2AD58003A7C72 /* PebbleVendor.framework */,
 				8A01964D17D2AD22003A7C72 /* Foundation.framework */,
 				8A01964F17D2AD22003A7C72 /* CoreGraphics.framework */,
 				8A01965117D2AD22003A7C72 /* UIKit.framework */,
@@ -396,10 +396,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/joshuabalfour/UberPebble,
+					"\"$(SRCROOT)/../../../../Downloads/UberPebble\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UberPebble/UberPebble-Prefix.pch";
 				INFOPLIST_FILE = "UberPebble/UberPebble-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/joshuabalfour/UberPebble,
@@ -417,10 +419,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/joshuabalfour/UberPebble,
+					"\"$(SRCROOT)/../../../../Downloads/UberPebble\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UberPebble/UberPebble-Prefix.pch";
 				INFOPLIST_FILE = "UberPebble/UberPebble-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/joshuabalfour/UberPebble,
