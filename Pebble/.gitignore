@@ -8,5 +8,5 @@ include
 lib
 waf
 wscript
-tool
+tools
 pebble_app.ld
